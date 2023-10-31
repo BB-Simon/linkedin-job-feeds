@@ -43,7 +43,7 @@ const Welcome = () => {
                 router.push(`/search/${item}`)
               }}
             >
-              <Text styel={styles.tabText(activeJobType, item)}>{item}</Text>
+              <Text style={styles.tabText(activeJobType, item)}>{item}</Text>
             </TouchableOpacity>
           )}
           keyExtractor={item => item}
